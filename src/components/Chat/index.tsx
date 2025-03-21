@@ -26,7 +26,7 @@ const Chat = () => {
 
     setRequest('')
 
-    const jsonResponse = await fetch('http://localhost:3000/api/prompt', {
+    const jsonResponse = await fetch('/api/prompt', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
